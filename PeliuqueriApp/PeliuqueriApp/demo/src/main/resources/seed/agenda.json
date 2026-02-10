@@ -3,1064 +3,1064 @@
     "servicioId": 1,
     "grupoId": 2,
     "aula": "C2.3",
-    "horaInicio": "2025-12-22T08:50:00",
-    "horaFin": "2025-12-22T10:30:00"
+    "horaInicio": "2026-12-22T08:50:00",
+    "horaFin": "2026-12-22T10:30:00"
   ,"sillas": 10
 },
   {
     "servicioId": 1,
     "grupoId": 2,
     "aula": "C2.3",
-    "horaInicio": "2025-12-18T12:00:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T12:00:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 1,
     "grupoId": 3,
     "aula": "C2.3",
-    "horaInicio": "2025-12-17T12:00:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T12:00:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 1,
     "grupoId": 3,
     "aula": "C2.3",
-    "horaInicio": "2025-12-19T08:00:00",
-    "horaFin": "2025-12-19T09:40:00"
+    "horaInicio": "2026-12-19T08:00:00",
+    "horaFin": "2026-12-19T09:40:00"
   ,"sillas": 10
 },
   {
     "servicioId": 1,
     "grupoId": 4,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 2,
     "grupoId": 2,
     "aula": "C2.3",
-    "horaInicio": "2025-12-22T08:50:00",
-    "horaFin": "2025-12-22T10:30:00"
+    "horaInicio": "2026-12-22T08:50:00",
+    "horaFin": "2026-12-22T10:30:00"
   ,"sillas": 10
 },
   {
     "servicioId": 2,
     "grupoId": 2,
     "aula": "C2.3",
-    "horaInicio": "2025-12-18T12:00:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T12:00:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 2,
     "grupoId": 3,
     "aula": "C2.3",
-    "horaInicio": "2025-12-17T12:00:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T12:00:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 2,
     "grupoId": 3,
     "aula": "C2.3",
-    "horaInicio": "2025-12-19T08:00:00",
-    "horaFin": "2025-12-19T09:40:00"
+    "horaInicio": "2026-12-19T08:00:00",
+    "horaFin": "2026-12-19T09:40:00"
   ,"sillas": 10
 },
   {
     "servicioId": 2,
     "grupoId": 4,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 3,
     "grupoId": 2,
     "aula": "C2.3",
-    "horaInicio": "2025-12-22T08:50:00",
-    "horaFin": "2025-12-22T10:30:00"
+    "horaInicio": "2026-12-22T08:50:00",
+    "horaFin": "2026-12-22T10:30:00"
   ,"sillas": 10
 },
   {
     "servicioId": 3,
     "grupoId": 2,
     "aula": "C2.3",
-    "horaInicio": "2025-12-18T12:00:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T12:00:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 3,
     "grupoId": 3,
     "aula": "C2.3",
-    "horaInicio": "2025-12-17T12:00:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T12:00:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 3,
     "grupoId": 3,
     "aula": "C2.3",
-    "horaInicio": "2025-12-19T08:00:00",
-    "horaFin": "2025-12-19T09:40:00"
+    "horaInicio": "2026-12-19T08:00:00",
+    "horaFin": "2026-12-19T09:40:00"
   ,"sillas": 10
 },
   {
     "servicioId": 3,
     "grupoId": 4,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 4,
     "grupoId": 2,
     "aula": "C2.3",
-    "horaInicio": "2025-12-22T08:50:00",
-    "horaFin": "2025-12-22T10:30:00"
+    "horaInicio": "2026-12-22T08:50:00",
+    "horaFin": "2026-12-22T10:30:00"
   ,"sillas": 10
 },
   {
     "servicioId": 4,
     "grupoId": 2,
     "aula": "C2.3",
-    "horaInicio": "2025-12-18T12:00:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T12:00:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 4,
     "grupoId": 3,
     "aula": "C2.3",
-    "horaInicio": "2025-12-17T12:00:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T12:00:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 4,
     "grupoId": 3,
     "aula": "C2.3",
-    "horaInicio": "2025-12-19T08:00:00",
-    "horaFin": "2025-12-19T09:40:00"
+    "horaInicio": "2026-12-19T08:00:00",
+    "horaFin": "2026-12-19T09:40:00"
   ,"sillas": 10
 },
   {
     "servicioId": 4,
     "grupoId": 4,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 5,
     "grupoId": 4,
     "aula": "C2.3",
-    "horaInicio": "2025-12-19T11:05:00",
-    "horaFin": "2025-12-19T14:00:00"
+    "horaInicio": "2026-12-19T11:05:00",
+    "horaFin": "2026-12-19T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 6,
     "grupoId": 4,
     "aula": "C2.3",
-    "horaInicio": "2025-12-19T11:05:00",
-    "horaFin": "2025-12-19T14:00:00"
+    "horaInicio": "2026-12-19T11:05:00",
+    "horaFin": "2026-12-19T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 7,
     "grupoId": 5,
     "aula": "C2.3",
-    "horaInicio": "2025-12-17T08:30:00",
-    "horaFin": "2025-12-17T10:35:00"
+    "horaInicio": "2026-12-17T08:30:00",
+    "horaFin": "2026-12-17T10:35:00"
   ,"sillas": 10
 },
   {
     "servicioId": 7,
     "grupoId": 6,
     "aula": "C2.3",
-    "horaInicio": "2025-12-17T19:00:00",
-    "horaFin": "2025-12-17T20:45:00"
+    "horaInicio": "2026-12-17T19:00:00",
+    "horaFin": "2026-12-17T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 8,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 8,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 8,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-19T15:00:00",
-    "horaFin": "2025-12-19T17:45:00"
+    "horaInicio": "2026-12-19T15:00:00",
+    "horaFin": "2026-12-19T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 8,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 8,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 9,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 9,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 9,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 9,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 10,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 10,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 10,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 10,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 11,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 11,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 11,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 11,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 12,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 12,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 12,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-19T15:00:00",
-    "horaFin": "2025-12-19T17:45:00"
+    "horaInicio": "2026-12-19T15:00:00",
+    "horaFin": "2026-12-19T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 12,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 12,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 13,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 13,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 13,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 13,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T15:00:00",
-    "horaFin": "2025-12-16T17:45:00"
+    "horaInicio": "2026-12-16T15:00:00",
+    "horaFin": "2026-12-16T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 14,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 14,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 14,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 14,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 15,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 15,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 15,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 15,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 16,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 16,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 16,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 16,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 17,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 17,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 17,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 17,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 18,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 18,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 18,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 18,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 19,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 19,
     "grupoId": 6,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T15:00:00",
-    "horaFin": "2025-12-22T17:45:00"
+    "horaInicio": "2026-12-22T15:00:00",
+    "horaFin": "2026-12-22T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 19,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T11:05:00",
-    "horaFin": "2025-12-17T14:00:00"
+    "horaInicio": "2026-12-17T11:05:00",
+    "horaFin": "2026-12-17T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 19,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 20,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 21,
     "grupoId": 8,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T18:00:00",
-    "horaFin": "2025-12-22T20:45:00"
+    "horaInicio": "2026-12-22T18:00:00",
+    "horaFin": "2026-12-22T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 21,
     "grupoId": 9,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T18:00:00",
-    "horaFin": "2025-12-22T20:45:00"
+    "horaInicio": "2026-12-22T18:00:00",
+    "horaFin": "2026-12-22T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 21,
     "grupoId": 8,
     "aula": "C1.2",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 21,
     "grupoId": 9,
     "aula": "C1.2",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 21,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 22,
     "grupoId": 8,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T18:00:00",
-    "horaFin": "2025-12-22T20:45:00"
+    "horaInicio": "2026-12-22T18:00:00",
+    "horaFin": "2026-12-22T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 22,
     "grupoId": 9,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T18:00:00",
-    "horaFin": "2025-12-22T20:45:00"
+    "horaInicio": "2026-12-22T18:00:00",
+    "horaFin": "2026-12-22T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 22,
     "grupoId": 8,
     "aula": "C1.2",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 22,
     "grupoId": 8,
     "aula": "C1.2",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 22,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 23,
     "grupoId": 8,
     "aula": "C1.2",
-    "horaInicio": "2025-12-22T18:00:00",
-    "horaFin": "2025-12-22T20:45:00"
+    "horaInicio": "2026-12-22T18:00:00",
+    "horaFin": "2026-12-22T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 23,
     "grupoId": 9,
     "aula": "C1.2",
-    "horaInicio": "2025-12-16T18:00:00",
-    "horaFin": "2025-12-16T20:45:00"
+    "horaInicio": "2026-12-16T18:00:00",
+    "horaFin": "2026-12-16T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 23,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 24,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T15:00:00",
-    "horaFin": "2025-12-16T17:45:00"
+    "horaInicio": "2026-12-16T15:00:00",
+    "horaFin": "2026-12-16T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 25,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T15:00:00",
-    "horaFin": "2025-12-16T17:45:00"
+    "horaInicio": "2026-12-16T15:00:00",
+    "horaFin": "2026-12-16T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 26,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-16T15:00:00",
-    "horaFin": "2025-12-16T17:45:00"
+    "horaInicio": "2026-12-16T15:00:00",
+    "horaFin": "2026-12-16T17:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 27,
     "grupoId": 10,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T08:45:00",
-    "horaFin": "2025-12-17T10:35:00"
+    "horaInicio": "2026-12-17T08:45:00",
+    "horaFin": "2026-12-17T10:35:00"
   ,"sillas": 10
 },
   {
     "servicioId": 27,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 27,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 28,
     "grupoId": 10,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T08:45:00",
-    "horaFin": "2025-12-17T10:35:00"
+    "horaInicio": "2026-12-17T08:45:00",
+    "horaFin": "2026-12-17T10:35:00"
   ,"sillas": 10
 },
   {
     "servicioId": 28,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 28,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 29,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 29,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 30,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 30,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 31,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 32,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 33,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 34,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 35,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 36,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 37,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 38,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 39,
     "grupoId": 8,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T18:00:00",
-    "horaFin": "2025-12-17T20:20:00"
+    "horaInicio": "2026-12-17T18:00:00",
+    "horaFin": "2026-12-17T20:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 40,
     "grupoId": 10,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T08:45:00",
-    "horaFin": "2025-12-17T10:35:00"
+    "horaInicio": "2026-12-17T08:45:00",
+    "horaFin": "2026-12-17T10:35:00"
   ,"sillas": 10
 },
   {
     "servicioId": 40,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 40,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 41,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 41,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 42,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 42,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 43,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 44,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 45,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 46,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 46,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 47,
     "grupoId": 7,
     "aula": "C1.1",
-    "horaInicio": "2025-12-18T11:05:00",
-    "horaFin": "2025-12-18T14:00:00"
+    "horaInicio": "2026-12-18T11:05:00",
+    "horaFin": "2026-12-18T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 47,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 48,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-17T15:00:00",
-    "horaFin": "2025-12-17T17:20:00"
+    "horaInicio": "2026-12-17T15:00:00",
+    "horaFin": "2026-12-17T17:20:00"
   ,"sillas": 10
 },
   {
     "servicioId": 49,
     "grupoId": 11,
     "aula": "C1.1",
-    "horaInicio": "2025-12-19T15:00:00",
-    "horaFin": "2025-12-19T18:55:00"
+    "horaInicio": "2026-12-19T15:00:00",
+    "horaFin": "2026-12-19T18:55:00"
   ,"sillas": 10
 },
   {
     "servicioId": 50,
     "grupoId": 5,
     "aula": "C1.2",
-    "horaInicio": "2025-12-19T11:05:00",
-    "horaFin": "2025-12-19T12:55:00"
+    "horaInicio": "2026-12-19T11:05:00",
+    "horaFin": "2026-12-19T12:55:00"
   ,"sillas": 10
 },
   {
     "servicioId": 50,
     "grupoId": 6,
     "aula": "C1.1",
-    "horaInicio": "2025-12-19T19:00:00",
-    "horaFin": "2025-12-19T20:45:00"
+    "horaInicio": "2026-12-19T19:00:00",
+    "horaFin": "2026-12-19T20:45:00"
   ,"sillas": 10
 },
   {
     "servicioId": 51,
     "grupoId": 10,
     "aula": "C1.1",
-    "horaInicio": "2025-12-22T11:05:00",
-    "horaFin": "2025-12-22T14:00:00"
+    "horaInicio": "2026-12-22T11:05:00",
+    "horaFin": "2026-12-22T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 51,
     "grupoId": 10,
     "aula": "C1.1",
-    "horaInicio": "2025-12-19T09:40:00",
-    "horaFin": "2025-12-19T12:55:00"
+    "horaInicio": "2026-12-19T09:40:00",
+    "horaFin": "2026-12-19T12:55:00"
   ,"sillas": 10
 },
   {
     "servicioId": 51,
     "grupoId": 12,
     "aula": "C1.2",
-    "horaInicio": "2025-12-16T11:05:00",
-    "horaFin": "2025-12-16T14:00:00"
+    "horaInicio": "2026-12-16T11:05:00",
+    "horaFin": "2026-12-16T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 51,
     "grupoId": 7,
     "aula": "C1.2",
-    "horaInicio": "2025-12-16T11:05:00",
-    "horaFin": "2025-12-16T14:00:00"
+    "horaInicio": "2026-12-16T11:05:00",
+    "horaFin": "2026-12-16T14:00:00"
   ,"sillas": 10
 },
   {
     "servicioId": 51,
     "grupoId": 13,
     "aula": "C1.2",
-    "horaInicio": "2025-12-16T11:05:00",
-    "horaFin": "2025-12-16T14:00:00"
+    "horaInicio": "2026-12-16T11:05:00",
+    "horaFin": "2026-12-16T14:00:00"
   ,"sillas": 10
 }
 ]

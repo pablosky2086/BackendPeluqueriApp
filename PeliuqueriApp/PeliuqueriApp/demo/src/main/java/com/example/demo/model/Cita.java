@@ -29,6 +29,9 @@ public class Cita {
     @JoinColumn(name = "agenda_id", nullable = false)
     private Agenda agenda;
 
+    // En Cita.java
+    @OneToOne(mappedBy = "cita", cascade = CascadeType.ALL)
+    private Valoracion valoracion;
 
     public Cita(LocalDateTime inicio, Agenda agenda, Cliente cliente) {
         this.fechaHoraInicio = inicio;
