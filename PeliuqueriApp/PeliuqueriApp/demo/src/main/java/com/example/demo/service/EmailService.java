@@ -47,6 +47,26 @@ public class EmailService {
         enviar(emailDestino, asunto, html);
     }
 
+    // --- NUEVO MÉTODO: AVISO CANCELACIÓN ---
+    public void enviarAvisoCancelacion(String email, String nombre, String motivo, String fechaHora) {
+        String asunto = "AVISO URGENTE: Incidencia en su cita - PeluqueriApp";
+        String html = """
+            <div style='font-family: sans-serif; border: 1px solid #ccc; padding: 20px; border-radius: 8px;'>
+                <h2 style='color: #d32f2f;'>Su cita ha sido afectada</h2>
+                <p>Hola <strong>%s</strong>,</p>
+                <p>Le informamos que su cita programada para el <strong>%s</strong> no podrá realizarse por una incidencia en el centro.</p>
+                <p style='background-color: #f8d7da; padding: 10px; border-radius: 4px; color: #721c24;'>
+                    <strong>Motivo:</strong> %s
+                </p>
+                <p>La cita sigue registrada en su historial, pero le rogamos que 
+                   <strong>no acuda al centro</strong> y reserve una nueva fecha disponible.</p>
+                <p>Sentimos las molestias.</p>
+            </div>
+            """.formatted(nombre, fechaHora, motivo);
+
+        enviar(email, asunto, html);
+    }
+
     private void enviar(String to, String subject, String html) {
         try {
             MimeMessage message = mailSender.createMimeMessage();

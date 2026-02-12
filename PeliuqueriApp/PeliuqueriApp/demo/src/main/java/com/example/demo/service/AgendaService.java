@@ -1,18 +1,22 @@
 package com.example.demo.service;
 
 import com.example.demo.model.Agenda;
+import com.example.demo.model.Cita;
 import com.example.demo.model.Grupo;
 import com.example.demo.model.Servicio;
 import com.example.demo.payload.DTOs.AgendaResponseDTO;
 import com.example.demo.payload.request.AgendaRequest;
+import com.example.demo.payload.request.BloqueoRequest; // Importar DTO
 import com.example.demo.repository.AgendaRepository;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
+import org.springframework.transaction.annotation.Transactional; // Importante
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
@@ -21,11 +25,14 @@ public class AgendaService {
     private final AgendaRepository agendaRepository;
     private final GrupoService grupoService;
     private final ServicioService servicioService;
+    private final EmailService emailService; // Inyectar EmailService
 
-    public AgendaService(AgendaRepository agendaRepository, @Lazy GrupoService grupoService, @Lazy ServicioService servicioService) {
+    public AgendaService(AgendaRepository agendaRepository, @Lazy GrupoService grupoService, @Lazy ServicioService servicioService, EmailService emailService) {
         this.agendaRepository = agendaRepository;
         this.grupoService = grupoService;
         this.servicioService = servicioService;
+
+        this.emailService = emailService;
     }
 
     // Metodos GET
@@ -53,9 +60,6 @@ public class AgendaService {
     public List<AgendaResponseDTO> getAgendasByGrupoAndServicio(Long grupoId, Long servicioId) {
         return agendaRepository.findByGrupoIdAndServicioId(grupoId, servicioId).stream().map(AgendaService::toDTO).toList();
     }
-
-
-
 
 
     // Metodos POST
@@ -98,6 +102,65 @@ public class AgendaService {
             agendaRepository.save(agenda);
         }
         System.out.println("Se han creado " + numeroDeAgendas + " agendas semanalmente a partir de la fecha " + request.getHoraInicio());
+    }
+
+    // --- NUEVO MÉTODO DE BLOQUEO ---
+    @Transactional // Hace que todo se guarde o nada se guarde si hay error
+    public int bloquearAgendas(BloqueoRequest request) {
+        List<Agenda> agendasAfectadas = new ArrayList<>();
+
+        // CASO 1: Por ID
+        if (request.getAgendaId() != null) {
+            Agenda agenda = agendaRepository.findById(request.getAgendaId())
+                    .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Agenda no encontrada"));
+            agendasAfectadas.add(agenda);
+        }
+        // CASO 2: Por Fechas (y opcionalmente Grupo)
+        else {
+            if (request.getFechaInicio() == null || request.getFechaFin() == null) {
+                throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Fechas obligatorias para bloqueo masivo");
+            }
+            LocalDateTime inicio = LocalDateTime.parse(request.getFechaInicio());
+            LocalDateTime fin = LocalDateTime.parse(request.getFechaFin());
+
+            if (request.getGrupoId() != null) {
+                // Bloqueo de un Grupo (Examen)
+                agendasAfectadas = agendaRepository.findByGrupoIdAndHoraInicioBetween(request.getGrupoId(), inicio, fin);
+            } else {
+                // Bloqueo General (Huelga/Nieve)
+                agendasAfectadas = agendaRepository.findByHoraInicioBetween(inicio, fin);
+            }
+        }
+
+        if (agendasAfectadas.isEmpty()) return 0;
+
+        int emailsEnviados = 0;
+
+        for (Agenda agenda : agendasAfectadas) {
+            // 1. Bloquear
+            agenda.setBloqueada(true);
+            agenda.setMotivoBloqueo(request.getMotivo());
+
+            // 2. Avisar a clientes con cita
+            List<Cita> citas = agenda.getCitas();
+            if (citas != null && !citas.isEmpty()) {
+                for (Cita cita : citas) {
+                    emailService.enviarAvisoCancelacion(
+                            cita.getCliente().getEmail(),
+                            cita.getCliente().getNombreCompleto(),
+                            request.getMotivo(),
+                            agenda.getHoraInicio().toString().replace("T", " ")
+                    );
+                    emailsEnviados++;
+                }
+            }
+        }
+
+        // 3. Guardar cambios en BD
+        agendaRepository.saveAll(agendasAfectadas);
+        System.out.println("Bloqueadas " + agendasAfectadas.size() + " agendas. Emails enviados: " + emailsEnviados);
+
+        return agendasAfectadas.size();
     }
 
     public List<AgendaResponseDTO> search(Long servicio, Long grupo, LocalDateTime desde, LocalDateTime hasta) {

@@ -3,10 +3,12 @@ package com.example.demo.controller;
 import com.example.demo.model.Agenda;
 import com.example.demo.payload.DTOs.AgendaResponseDTO;
 import com.example.demo.payload.request.AgendaRequest;
+import com.example.demo.payload.request.BloqueoRequest;
 import com.example.demo.service.AgendaService;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 
@@ -75,6 +77,14 @@ public class AgendaController {
         LocalDateTime hastaDateTime = (hasta != null) ? hasta.atTime(23, 59, 59) : null;
 
         return ResponseEntity.ok(agendaService.getDiasDisponiblesParaServicio(servicio, grupo, desdeDateTime, hastaDateTime));
+    }
+
+    // --- NUEVO ENDPOINT POST ---
+    @PostMapping("/bloquear")
+    @PreAuthorize("hasRole('ADMIN')")
+    public ResponseEntity<String> bloquearAgendas(@RequestBody BloqueoRequest request) {
+        int cantidad = agendaService.bloquearAgendas(request);
+        return ResponseEntity.ok("Se han bloqueado " + cantidad + " agendas correctamente.");
     }
     // Metodos POST
     // Crear una nueva agenda

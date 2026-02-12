@@ -27,16 +27,27 @@ public class Agenda {
     LocalDateTime horaInicio;
     LocalDateTime horaFin;
     String aula;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "servicio_id", nullable = false)
     Servicio servicio;
+
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "grupo_id", nullable = false)
     Grupo grupo;
+
     @OneToMany(mappedBy = "agenda")
     @JsonIgnore
     private List<Cita> citas;
-    int sillas; // Por defecto 10 puesto en el seed
+
+    int sillas; // por defecto 10 determinado en el seed
+
+    // --- NUEVOS CAMPOS ---
+    @Column(nullable = false)
+    private boolean bloqueada = false; // Por defecto FALSE (disponible)
+
+    private String motivoBloqueo;
+    // ---------------------
 
     public Agenda(LocalDateTime horaInicio, LocalDateTime horaFin, Servicio servicio, Grupo grupo, String aula, int sillas) {
         this.horaInicio = horaInicio;
@@ -59,6 +70,9 @@ public class Agenda {
 
     // Ver si es disponible en una fecha y hora dada
     public boolean esDisponible(LocalDateTime fechaHora) {
+        // 1. CHEQUEO DE BLOQUEO
+        if (this.bloqueada) return false;
+
         // Comprobar si la fechaHora esta dentro del rango de la agenda
         if (fechaHora.isBefore(horaInicio) || fechaHora.isAfter(horaFin.minusMinutes(servicio.getDuracion()))) {
             return false;
@@ -78,12 +92,9 @@ public class Agenda {
     public Map<LocalDateTime, Boolean> horasDisponiblesConEstado() {
         List<LocalDateTime> huecos = calcularHuecos();
         return huecos.stream()
-                .collect(
-                        toMap(
-                                hora -> hora,
-                                hora -> esDisponible(hora)
-                        )
-                );
+                .collect(toMap(
+                        hora -> hora,
+                        hora -> esDisponible(hora)
+                ));
     }
-
 }
