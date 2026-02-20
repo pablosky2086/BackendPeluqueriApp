@@ -114,6 +114,7 @@ public class CitaService {
             );
         }
 
+
 //        if (inicio.isBefore(agenda.getHoraInicio())) {
 //            throw new ResponseStatusException(
 //                    HttpStatus.BAD_REQUEST,
@@ -137,6 +138,13 @@ public class CitaService {
         return citaRepository.save(cita);
     }
 
+    public Cita marcarComoConfirmada(Long id) {
+        Cita cita = citaRepository.findById(id)
+                .orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Cita no encontrada"));
+
+        cita.setConfirmada(true);
+        return citaRepository.save(cita);
+    }
 
     // ---------------- DELETE ----------------
 

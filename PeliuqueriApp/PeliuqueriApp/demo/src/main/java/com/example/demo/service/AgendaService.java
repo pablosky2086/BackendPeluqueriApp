@@ -208,6 +208,7 @@ public class AgendaService {
                 agenda.getHoraFin(),
                 agenda.getAula(),
                 agenda.getSillas(),
+                agenda.isBloqueada(),
                 agenda.getServicio(),
                 agenda.getGrupo(),
                 agenda.horasDisponiblesConEstado()

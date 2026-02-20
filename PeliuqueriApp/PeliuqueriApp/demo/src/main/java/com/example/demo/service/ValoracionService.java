@@ -45,6 +45,20 @@ public class ValoracionService {
             throw new ResponseStatusException(HttpStatus.FORBIDDEN, "No tienes permiso para valorar esta cita");
         }
 
+        // --- NUEVAS VALIDACIONES ---
+
+        // A) Validar que la cita ya haya ocurrido (Fecha actual > Fecha inicio cita)
+        if (LocalDateTime.now().isBefore(cita.getFechaHoraInicio())) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "No puedes valorar una cita futura. Espera a que suceda.");
+        }
+
+        // B) Validar que el Admin/Grupo haya confirmado la asistencia
+        // IMPORTANTE: Esto requiere que hayas añadido el campo 'confirmada' en tu modelo Cita.java
+        if (!cita.isConfirmada()) {
+            throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "El centro aún no ha confirmado tu asistencia. Por favor, espera a que la validen para poder valorar.");
+        }
+        // ---------------------------
+
         // 3. Regla de negocio: Verificar si ya existe valoración
         if (valoracionRepository.findByCitaId(cita.getId()).isPresent()) {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Esta cita ya tiene una valoración");

@@ -105,6 +105,13 @@ public class CitaController {
         return new ResponseEntity<>(nuevaCita, HttpStatus.CREATED);
     }
 
+    @PutMapping("/{id}/confirmar")
+    @PreAuthorize("hasAnyRole('ADMIN', 'GRUPO')") // Asumo que el Grupo también puede confirmar que atendió al cliente
+    public ResponseEntity<Cita> confirmarAsistencia(@PathVariable Long id) {
+        Cita citaConfirmada = citaService.marcarComoConfirmada(id);
+        return ResponseEntity.ok(citaConfirmada);
+    }
+
     // DELETE - Cancelar una cita
     @DeleteMapping("/{id}")
     public ResponseEntity<Void> delete(@PathVariable Long id) {

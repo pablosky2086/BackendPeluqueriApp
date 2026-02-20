@@ -79,7 +79,6 @@ public class AgendaController {
         return ResponseEntity.ok(agendaService.getDiasDisponiblesParaServicio(servicio, grupo, desdeDateTime, hastaDateTime));
     }
 
-    // --- NUEVO ENDPOINT POST ---
     @PostMapping("/bloquear")
     @PreAuthorize("hasRole('ADMIN')")
     public ResponseEntity<String> bloquearAgendas(@RequestBody BloqueoRequest request) {

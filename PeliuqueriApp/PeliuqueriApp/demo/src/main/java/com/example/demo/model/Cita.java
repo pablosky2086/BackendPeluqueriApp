@@ -33,6 +33,9 @@ public class Cita {
     @OneToOne(mappedBy = "cita", cascade = CascadeType.ALL)
     private Valoracion valoracion;
 
+    @Column(nullable = false)
+    private boolean confirmada = false;
+
     public Cita(LocalDateTime inicio, Agenda agenda, Cliente cliente) {
         this.fechaHoraInicio = inicio;
         this.agenda = agenda;
