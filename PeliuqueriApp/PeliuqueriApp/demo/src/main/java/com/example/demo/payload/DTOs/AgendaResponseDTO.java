@@ -18,8 +18,8 @@ public class AgendaResponseDTO {
     private LocalDateTime horaFin;
     private String aula;
     private int sillas;
-    private boolean bloqueado;
-    
+    private boolean bloqueada;
+    private String motivoBloqueo;
     private Servicio servicio;
     private Grupo grupo;
 

@@ -209,6 +209,7 @@ public class AgendaService {
                 agenda.getAula(),
                 agenda.getSillas(),
                 agenda.isBloqueada(),
+                agenda.getMotivoBloqueo(),
                 agenda.getServicio(),
                 agenda.getGrupo(),
                 agenda.horasDisponiblesConEstado()
